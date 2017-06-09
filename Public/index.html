@@ -1,5 +1,6 @@
-<form action="/upload">
-    Please select a file
-    <input type="button" name="select" value="Select">.
-    <input type="submit" value="Submit">
-</form>>
+<form action="/upload" method="post" enctype="multipart/form-data">
+    Select a file for upload :
+    <input type="file" name="fileupload"><br><br>
+    Ready to submit
+    <input type="submit" name="submit" value="Submit">
+</form>
